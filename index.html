@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./build/css/style.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>R, P, S</title>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+    <button class="instructions">How to play</button>
+    <ul class="rules">
+        <li>Rock <span>beats</span> Scissors</li>
+        <li>Scissors <span>beats</span> Paper</li>
+        <li>Paper <span>beats</span> Rock</li>
+        <li>Rock <span>beats</span> Lizard</li>
+        <li>Lizard <span>beats</span> Spock</li>
+        <li>Spock <span>beats</span> Rock</li>
+        <li>Lizard <span>beats</span> Paper</li>
+        <li>Scissors <span>beats</span> Lizard</li>
+    </ul>
+    <button class="play">PLAY</button>
+    <div class="gameboard">
+        <div class="scoreboard">
+            <h2 class="scorep1"></h2>
+            <h2 class="scorep2"></h2>
+        </div>
+        <div class="players">
+            <div class="player1-side">
+                <i class="fas fa-hand-rock r1"></i>
+                <i class="fas fa-hand-paper p1"></i>
+                <i class="fas fa-hand-scissors s1"></i>
+                <i class="fas fa-hand-spock sp1"></i>
+                <i class="fas fa-hand-lizard l1"></i>
+            </div>
+            <button class="game">PLAY</button>
+            <div class="player2-side">
+                <i class="fas fa-hand-rock r2"></i>
+                <i class="fas fa-hand-paper p2"></i>
+                <i class="fas fa-hand-scissors s2"></i>
+                <i class="fas fa-hand-spock sp2"></i>
+                <i class="fas fa-hand-lizard l2"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./build/js/index.min.js"></script>
+</body>
+</html>

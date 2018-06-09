@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Pixel';
+  src: url("../../fonts/Pixel.eot");
+  src: url("../../fonts/Pixel.eot?#iefix") format("embedded-opentype"), url("../../fonts/Pixel.woff2") format("woff2"), url("../../fonts/Pixel.woff") format("woff"), url("../../fonts/Pixel.svg#Pixel") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background: black;
+  font-family: "Pixel";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  font-family: "Pixel";
+  text-transform: uppercase;
+  color: white; }
+
+.instructions {
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background: transparent;
+  border: 1px solid white;
+  font-family: "Pixel"; }
+  .instructions:hover {
+    background: grey; }
+
+.rules {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  line-height: 30px;
+  font-size: 20px; }
+
+.play {
+  width: 200px;
+  height: 100px;
+  font-size: 50px;
+  padding: 20px 30px;
+  background: green;
+  color: white;
+  font-family: "Pixel";
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+  .play:hover {
+    background: #001a00; }
+
+.gameboard {
+  width: 80%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  background: #36769b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px; }
+  .gameboard .scoreboard {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 20%;
+    font-size: 5rem;
+    color: white;
+    margin-top: 20px; }
+  .gameboard .players {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .gameboard i {
+    font-size: 10rem;
+    width: 150px;
+    text-align: center;
+    color: white; }
+  .gameboard .game {
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    padding: 20px 30px;
+    background: green;
+    color: white;
+    font-family: "Pixel";
+    text-align: center; }
+    .gameboard .game:hover {
+      background: #001a00; }
